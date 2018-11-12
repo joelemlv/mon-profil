@@ -1,0 +1,72 @@
+/* colors and fonts */
+
+body {
+background: #dfe2fe;
+color: #5c5757;
+font-family: 'Bentham', serif;
+margin: 60px
+}
+h1 {
+    color: #005792;
+    margin: 50px
+}
+h2, h3, h4{
+ 
+    font-family: helvetica;
+    color:  #4a9ff5;
+    font-size: 22px;
+    margin: 50px
+}
+ 
+p {
+    color: grey 
+}
+ 
+a {
+    color: #63aebb;
+ 
+}
+ 
+a:hover {
+    color: #c9ffc7;
+}
+ 
+
+/*custom design with class*/
+ 
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 11px;
+    text-align: center;
+}
+.img-circle {
+    border-radius: 50%
+}
+.btn-blue {
+    background-color: #63aebb;
+    color: black;
+    padding: 25px 10px;
+    border-radius: 4px;
+}
+.btn-blue:hover {
+    background-color: black;
+    color: black;
+}
+.list-line {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-line li {
+    display: inline;
+    padding: 10px;
+}
+ 
+ 
+ 
